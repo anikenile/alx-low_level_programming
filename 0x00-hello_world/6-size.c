@@ -2,7 +2,7 @@
 /**
  * main - code starts here
  *
- * return - code results here
+ * return: code results here as 0
  */
 int main(void)
 {
