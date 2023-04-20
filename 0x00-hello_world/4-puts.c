@@ -1,12 +1,11 @@
 #include <stdio.h>
 /**
- * This program uses the puts function
- * Enters at main
+ * main - Program starts here
  *
- * Returns 0 always
+ * Return: Always defaults to 0 (Success)
  */
 int main(void)
 {
-	puts("Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle\n");
 	return (0);
 }
