@@ -4,7 +4,7 @@
  * code to print between 0 to 9 and a to f
  * Return: Always 0 as output
  */
-int main (void)
+int main(void)
 {
 	int x;
 
