@@ -2,9 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/* main - code starts here
+/** 
+ * main - code starts here
  *
- * Return: 0 when done
+ * Return: Always  0 (Success)
  */
 int main(void)
 {
