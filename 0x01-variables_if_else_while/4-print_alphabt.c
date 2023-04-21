@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <dirent.h>
 #include <string.h>
 #include <stdlib.h>
 /**
@@ -11,7 +10,7 @@ int main(void)
 {
 	int ch;
 
-	for (ch = 97; ch <= 123; ch++)
+	for (ch = 97; ch < 123; ch++)
 	{
 		if (ch != 101 && ch != 113)
 		{
