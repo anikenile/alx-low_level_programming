@@ -2,16 +2,16 @@
 /**
  * main - Entry of code
  * code to print alphabets in lowercase
- * Return - Always 0 as output
+ * Return: Always 0 as output
  */
 int main(void)
 {
-	int ch;
+	char ch;
 
 	for (ch = 'a'; ch >= 'z'; ch++)
 	{
-		putchar (ch);
-		putchar ('\n');
+		putchar(ch);
+		putchar('\n');
 		getchar();
 	}
 	return (0);
