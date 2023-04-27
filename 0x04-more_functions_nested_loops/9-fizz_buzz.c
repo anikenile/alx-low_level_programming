@@ -2,7 +2,7 @@
 
 /**
  * main - FizzBuzz test
- * Return: 0
+ * Return: 0 as success
  */
 int main(void)
 {
@@ -18,7 +18,7 @@ int main(void)
 		{
 			printf(" Buzz");
 		}
-		else if (i % 5 == 0 && i % 3 == 0)
+		else if (i % 15 == 0)
 		{
 			printf(" FizzBuzz");
 		}
@@ -32,5 +32,6 @@ int main(void)
 		}
 	}
 	printf("\n");
+
 	return (0);
 }
