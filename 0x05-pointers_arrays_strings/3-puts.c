@@ -9,7 +9,7 @@ void _puts(char *str)
 {
 	int prnt;
 
-	for (prnt = 0; str[prnt] != 0; prnt++)
-		_putchar(prnt);
+	for (prnt = 0; str[prnt] != '\0'; prnt++)
+		_putchar(str[prnt]);
 	_putchar('\n');
 }
