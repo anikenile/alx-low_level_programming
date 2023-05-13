@@ -15,12 +15,12 @@ int main(int argc, char *argv[])
 	fig1 = atoi(argv[1]);
 	fig2 = atoi(argv[2]);
 
-	if (argc == 2)
+	if (argc == 3)
 	{
 		mult = fig1 * fig2;
 		printf("%d\n", mult);
 	}
-	else if (argc < 2 || argc > 2)
+	else if (argc < 3 || argc > 3)
 	{
 		printf("Error");
 		return (1);
