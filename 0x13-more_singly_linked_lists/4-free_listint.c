@@ -12,6 +12,9 @@ void free_listint(listint_t *head)
 	listint_t *newHead = head;
 
 	if (head != NULL)
-		*head = *head->next;
-	free(newHead);
+	{
+		newHead = head->next;
+		head = newHead;
+	}
+	free(head);
 }
