@@ -8,15 +8,18 @@
  */
 void print_binary(unsigned long int n)
 {
-	int i;
+	int i = 63;
 	int count = 0;
-	int bin;
 
-	for (i = 63; i >= 0; i--)
+	for ( ; i >= 0; i--)
 	{
-		bin = n >> i;
-
-		(bin & 1) ? _putchar('1') : _putchar('0');
+		if ((n >> i) & 1)
+		{
+			_putchar('1');
+			count++;
+		}
+		else if (count)
+			_putchar('0');
 	}
 	if (!count)
 		_putchar('0');
