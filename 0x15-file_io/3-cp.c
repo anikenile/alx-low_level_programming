@@ -10,15 +10,15 @@
 int main(int argc, char *argv[])
 {
 	int from, to, rd, op;
-	char *buf;
-
-	buf = malloc(sizeof(char) * 1024);
+	char *buf = malloc(sizeof(char) * 1024);
 
 	if (argc != 3)
 	{
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		exit(97);
 	}
+
+	buf = argv[2];
 
 	from = open(argv[1], O_RDWR);
 	rd = read(from, buf, 1024);
